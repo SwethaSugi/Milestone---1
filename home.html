@@ -7,41 +7,86 @@
   <link rel="stylesheet" href="home.css">
 </head>
 <body>
-  <!-- Header / Brand Name -->
-  <header>
+ <!-- Header Section -->
+<header id="main-header">
+  <!-- Background Gradient -->
+  <div class="header-bg"></div>
+
+  <div class="header-content">
     <h1>FOGG PERFUME</h1>
     <p>“Fragrance that defines your personality.”</p>
-  </header>
+  </div>
+</header>
+
 
   <!-- About Section -->
-  <section id="about">
-    <h2>About Our Perfume</h2>
-    <p>
-      Fogg is one of the most loved perfume brands, known for its long-lasting fragrance and freshness. 
-      Our mission is to craft scents that make every individual feel confident, elegant, and refreshed all day long.
-    </p>
-  </section>
+<section id="about">
+  <div class="about-container">
+    <!-- Left: Image -->
+    <div class="about-image">
+      <img src="https://illustrations.popsy.co/amber/app-launch.svg" alt="About Fogg Perfume">
+    </div>
+
+    <!-- Right: Text -->
+    <div class="about-content">
+      <h2>About Fogg Perfume</h2>
+      <p>
+        Fogg Perfume is a symbol of confidence and elegance. We craft fragrances that define your personality
+        — long-lasting, refreshing, and perfect for every occasion. Our mission is to bring the art of fragrance
+        closer to your daily life with unique blends that capture your individuality.
+      </p>
+      <p>
+        With years of experience in the perfume industry, Fogg has become one of the most trusted names for
+        authentic, high-quality perfumes that truly last. Discover your scent story with us!
+      </p>
+    </div>
+  </div>
+</section>
+
 
   <!-- Services Section -->
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Personalized perfume gift sets</li>
-      <li>Bulk perfume supply for events</li>
-      <li>Custom fragrance creation</li>
-      <li>Free fragrance consultation</li>
-    </ul>
-  </section>
+<section id="services">
+  <!-- Background gradient -->
+  <div class="services-bg"></div>
 
-  <!-- Gallery Section -->
-  <section id="gallery">
-    <h2>Our Collections</h2>
-    <div class="gallery-container">
-      <img src="https://rukminim2.flixcart.com/image/480/640/xif0q/perfume/x/4/f/-original-imaheatf2yjngj3f.jpeg?q=90" alt="Fogg Perfume 1">
-      <img src="https://image.aapkabazar.co/product/5551/1705386865327.png?type=png" alt="Fogg Perfume 2">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTgeIU1HsQxsRJ_n3DftNEVOP2mBSxeKImg&s" alt="Fogg Perfume 3">
+  <div class="services-container">
+    <!-- Left: Text Content -->
+    <div class="services-content">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Personalized perfume gift sets</li>
+        <li>Bulk perfume supply for events</li>
+        <li>Custom fragrance creation</li>
+        <li>Free fragrance consultation</li>
+      </ul>
     </div>
-  </section>
+
+    <!-- Right: Image -->
+    <div class="services-image">
+      <img src="https://illustrations.popsy.co/amber/shaking-hands.svg" alt="Perfume Services Illustration">
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Our Collections</h2>
+
+  <div class="slider-container">
+    <div class="slider-track">
+      <div class="slide"><img src="https://rukminim2.flixcart.com/image/480/640/xif0q/perfume/x/4/f/-original-imaheatf2yjngj3f.jpeg?q=90" alt="Fogg Perfume 1"></div>
+      <div class="slide"><img src="https://image.aapkabazar.co/product/5551/1705386865327.png?type=png" alt="Fogg Perfume 2"></div>
+      <div class="slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTgeIU1HsQxsRJ_n3DftNEVOP2mBSxeKImg&s" alt="Fogg Perfume 3"></div>
+    </div>
+
+    <!-- Navigation buttons -->
+    <button class="slider-btn prev" aria-label="Previous slide">&#10094;</button>
+    <button class="slider-btn next" aria-label="Next slide">&#10095;</button>
+
+    <!-- Dots -->
+    <div class="slider-dots" aria-hidden="false"></div>
+  </div>
+</section>
+
 
   <!-- Pricing Section -->
   <section id="pricing">
